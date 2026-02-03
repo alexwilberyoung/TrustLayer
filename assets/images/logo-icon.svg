@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="shieldGradIcon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="layerGrad1Icon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="layerGrad2Icon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Back layer -->
+  <path d="M24 4L40 9v12c0 9-6.4 16.4-16 19.6C14.4 37.4 8 30 8 21V9L24 4z"
+        fill="url(#layerGrad2Icon)" transform="translate(2.5, 3) scale(0.88)" opacity="0.6"/>
+
+  <!-- Middle layer -->
+  <path d="M24 4L40 9v12c0 9-6.4 16.4-16 19.6C14.4 37.4 8 30 8 21V9L24 4z"
+        fill="url(#layerGrad1Icon)" transform="translate(1.2, 1.5) scale(0.94)" opacity="0.8"/>
+
+  <!-- Front shield -->
+  <path d="M24 4L40 9v12c0 9-6.4 16.4-16 19.6C14.4 37.4 8 30 8 21V9L24 4z"
+        fill="url(#shieldGradIcon)"/>
+
+  <!-- Checkmark -->
+  <path d="M15 22l6 6 12-13"
+        stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
