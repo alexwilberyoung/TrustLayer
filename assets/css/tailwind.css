@@ -16,7 +16,7 @@
     @apply rounded-2xl bg-white p-8 shadow-xl border border-slate-100 hover:shadow-2xl transition-shadow duration-300;
   }
   .badge {
-    @apply inline-flex items-center rounded-full bg-blue-50 text-brand px-3 py-1 text-sm font-medium ring-1 ring-inset ring-blue-200;
+    @apply inline-flex items-center rounded-full bg-indigo-50 text-brand px-3 py-1 text-sm font-medium ring-1 ring-inset ring-indigo-200;
   }
   .section-title {
     @apply text-3xl md:text-4xl font-bold text-slate-900 tracking-tight;
@@ -25,7 +25,7 @@
     @apply text-lg text-slate-600 max-w-2xl;
   }
   .gradient-bg {
-    background: linear-gradient(to bottom right, #2563eb, #1d4ed8, #1e3a8a);
+    background: linear-gradient(135deg, #4f46e5 0%, #3730a3 50%, #1e1b4b 100%);
   }
   .gradient-text {
     @apply bg-gradient-to-r from-brand to-accent bg-clip-text text-transparent;
@@ -44,7 +44,7 @@
 
 /* Hero pattern overlay */
 .hero-pattern {
-  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Ccircle cx='30' cy='30' r='1.5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 /* Smooth scroll */

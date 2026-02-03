@@ -8,14 +8,14 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          DEFAULT: '#2563eb',
-          dark: '#1d4ed8',
-          light: '#3b82f6'
+          DEFAULT: '#4f46e5',
+          dark: '#4338ca',
+          light: '#6366f1'
         },
         accent: {
-          DEFAULT: '#06b6d4',
-          dark: '#0891b2',
-          light: '#22d3ee'
+          DEFAULT: '#0d9488',
+          dark: '#0f766e',
+          light: '#14b8a6'
         }
       }
     }
